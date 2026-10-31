@@ -17,18 +17,18 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Internal modules
-from src.config import (
+from config import (
     DATABASE_PATH, FACE_SAMPLES_DIR, AUDIO_SAMPLES_DIR,
     DEFAULT_WEIGHT_FACE, DEFAULT_WEIGHT_VOICE, DEFAULT_WEIGHT_LIVENESS,
     OVERALL_PASS_THRESHOLD
 )
-from src.database import DatabaseManager
-from src.vision import VisionEngine, MP_AVAILABLE
-from src.audio import AudioEngine, LIBROSA_AVAILABLE
-from src.agents import MultimodalAgentCoordinator, VerificationAgent
-from src.genai_engine import GenAIEngine, GEMINI_AVAILABLE
-from src.utils import (
-    plot_waveform, plot_spectrogram, plot_mfcc_heatmap,
+from database import DatabaseManager
+from vision import VisionEngine, MP_AVAILABLE
+from audio import AudioEngine, LIBROSA_AVAILABLE
+from agents import MultimodalAgentCoordinator, VerificationAgent
+from genai_engine import GenAIEngine, GEMINI_AVAILABLE
+from utils import (
+    plot_waveform, plot_spectrogram, plot_ecc_heatmap,
     plot_biometric_gauge, generate_synthetic_assets_if_missing
 )
 
