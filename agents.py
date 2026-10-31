@@ -13,8 +13,8 @@ from config import (
     OVERALL_PASS_THRESHOLD, FACE_PASS_THRESHOLD, VOICE_PASS_THRESHOLD,
     LIVENESS_PASS_THRESHOLD
 )
-from .database import DatabaseManager
-from .genai_engine import GenAIEngine
+from database import DatabaseManager
+from genai_engine import GenAIEngine
 
 
 @dataclass
