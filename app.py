@@ -28,7 +28,7 @@ from audio import AudioEngine, LIBROSA_AVAILABLE
 from agents import MultimodalAgentCoordinator, VerificationAgent
 from genai_engine import GenAIEngine, GEMINI_AVAILABLE
 from utils import (
-    plot_waveform, plot_spectrogram, plot_ecc_heatmap,
+    plot_waveform, plot_spectrogram, plot_mfcc_heatmap,
     plot_biometric_gauge, generate_synthetic_assets_if_missing
 )
 
