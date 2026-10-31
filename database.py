@@ -9,7 +9,7 @@ import datetime
 from typing import List, Dict, Any, Optional
 import numpy as np
 
-from .config import DATABASE_PATH, OFFICE_START_TIME, LATE_GRACE_MINUTES, REPEAT_PUNCH_COOLDOWN_MINUTES
+from config import DATABASE_PATH, OFFICE_START_TIME, LATE_GRACE_MINUTES, REPEAT_PUNCH_COOLDOWN_MINUTES
 
 
 class DatabaseManager:
