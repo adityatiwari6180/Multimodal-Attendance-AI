@@ -15,7 +15,7 @@ try:
 except ImportError:
     GEMINI_AVAILABLE = False
 
-from .config import DEFAULT_GEMINI_MODEL, GENAI_API_KEY_ENV
+from config import DEFAULT_GEMINI_MODEL, GENAI_API_KEY_ENV
 
 
 class GenAIEngine:
