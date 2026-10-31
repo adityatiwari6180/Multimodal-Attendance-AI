@@ -20,8 +20,8 @@ try:
 except ImportError:
     LIBROSA_AVAILABLE = False
 
-from .config import FACE_SAMPLES_DIR, AUDIO_SAMPLES_DIR
-from .audio import AudioEngine
+from config import FACE_SAMPLES_DIR, AUDIO_SAMPLES_DIR
+from audio import AudioEngine
 
 
 def plot_waveform(y: np.ndarray, sr: int):
