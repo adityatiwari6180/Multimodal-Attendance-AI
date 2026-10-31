@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from typing import Dict, Any, Optional, Tuple
 import datetime
 
-from .config import (
+from config import (
     DEFAULT_WEIGHT_FACE, DEFAULT_WEIGHT_VOICE, DEFAULT_WEIGHT_LIVENESS,
     OVERALL_PASS_THRESHOLD, FACE_PASS_THRESHOLD, VOICE_PASS_THRESHOLD,
     LIVENESS_PASS_THRESHOLD
