@@ -20,7 +20,7 @@ try:
 except ImportError:
     LIBROSA_AVAILABLE = False
 
-from .config import AUDIO_SAMPLE_RATE, N_MFCC, HOP_LENGTH, N_FFT, SILENCE_TOP_DB
+from config import AUDIO_SAMPLE_RATE, N_MFCC, HOP_LENGTH, N_FFT, SILENCE_TOP_DB
 
 
 @dataclass
